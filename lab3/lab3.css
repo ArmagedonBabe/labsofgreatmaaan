@@ -1,0 +1,79 @@
+body{
+    background-image: url("https://images3.alphacoders.com/589/589870.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 10px auto;
+}
+img{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.main{
+    margin: 100px 100px;
+    padding: 10px 300px 100px 10px;
+    color: white;
+    background-color: rgba(0,0,0,.5);
+}
+.aba{
+    padding-left: 100px;
+}
+#phoneNumber{
+    color: yellow;
+}
+.footer{
+    width: 100vw;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 20px;
+    position: fixed;
+    bottom: 30px;
+}
+#dae{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.popup{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    z-index: 1;
+    display: none;
+}
+.popupContent{
+    width: 30vw;
+    background-color: white;
+    margin: 12vw auto;
+    padding: 2vw;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+input, button{
+    width: 15vw;
+}
+.popup2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    z-index: 1;
+    display: none;
+}
+.popupContent2{
+    width: 30vw;
+    background-color: white;
+    margin: 12vw auto;
+    padding: 2vw;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
