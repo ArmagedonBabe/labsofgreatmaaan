@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .containerBlocks{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .container{
+            width: 140px;
+            background-color: #3e454b;
+            color: white;
+            margin: 10px;
+            padding: 5px 10px;
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        button{
+            width: 100px;
+            margin: 0 10px;
+            background-color: green;
+            color: #ffffff;
+            padding: 5px;
+            border: 2px solid darkgreen;
+            border-radius: 5px;
+        }
+        button:hover{
+            background-color: darkgreen;
+        }
+        .buttons{
+            margin: 20px 10px;
+        }
+    </style>
+</head>
+<body onload="all()">
+    <div class="containerBlocks">
+        <div class="container"></div>
+        <div class="container"></div>
+        <div class="container"></div>
+        <div class="container"></div>
+        <div class="container"></div>
+        <div class="container"></div>
+        <div class="container"></div>
+        <div class="container"></div>
+    </div>
+    <div class="buttons">
+        <button onclick="fruit()">Fruits</button>
+        <button onclick="car()">Cars</button>
+        <button onclick="animal()">Animals</button>
+    </div>
+    <script>
+        function all(){
+            const a = document.getElementsByClassName("container");
+            const arr = ["BMW","MERCEDES","TOYOTA","Banana","Kiwi","Apple","Lion","Horse"];
+            // const animals = ["Lion","Horse"];
+            // const fruits = ["Banana","Kiwi","Apple"];
+            for(let i =0; i<a.length; i++){
+                a[i].innerHTML = arr[i];
+            }
+
+            // for(let k = 0; k<animals.length; k++){
+            //     a[i].innerHTML = animals[k];
+            // }
+            // for(let l = 0; l<fruits.length; l++){
+            //     a[i].innerHTML = cars[l];
+            // }
+            // }
+        }
+        function animal(){
+            const a = document.getElementsByClassName("container");
+            const arr = ["Lion","Horse"];
+            for (let i = 0; i < arr.length; i++) {
+                a[i].innerHTML = arr[i];
+            }
+            for (let i = arr.length; i < a.length; i++) {
+                a[i].innerHTML = "";
+                a[i].style.visibility = "hidden";
+            }
+
+        }
+        function car(){
+            const a = document.getElementsByClassName("container");
+            const arr = ["BMW","MERCEDES","TOYOTA"];
+            for (let i = 0; i < arr.length; i++) {
+                a[i].innerHTML = arr[i];
+            }
+            for (let i = arr.length; i < a.length; i++) {
+                a[i].innerHTML = "";
+                a[i].style.visibility = "hidden";
+            }
+
+        }
+        function fruit(){
+            const a = document.getElementsByClassName("container");
+            const arr = ["Banana","Kiwi","Apple"];
+            for (let i = 0; i < arr.length; i++) {
+                a[i].innerHTML = arr[i];
+            }
+            for (let i = arr.length; i < a.length; i++) {
+                a[i].innerHTML = "";
+                a[i].style.visibility = "hidden";
+            }
+
+        }
+    </script>
+</body>
+</html>
