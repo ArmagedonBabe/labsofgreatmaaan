@@ -1,0 +1,382 @@
+body{
+    width: 100vw;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: visible;
+    font-family: Open Sans,sans-serif;
+}
+header{
+    width: 100vw;
+    height: 5.6vw;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    align-items: center;
+    z-index: 1;
+    box-shadow: 0 1px 5px #3e454b;
+}
+.headerImg{
+    display: inline-block;
+    padding-left: 70px;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 0.2vw;
+    padding-top: 1vw;
+}
+a{
+    text-decoration: none;
+    color: black;
+    word-spacing: 0.2vw;
+}
+li a{
+    font-size: 1.3vw;
+}
+.dropbtn{
+    background-color: white;
+    color: black;
+    padding: 1.5vw;
+    font-size: 1vw;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 15vw;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropbtn:hover{
+    color: #c31d28;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #c31d28;
+    border-left: 3px darkred solid;
+}
+li a:hover{
+    color: #c31d28;
+    text-decoration: underline #c31d28;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.nav2{
+    width: 100vw;
+    height: 6vw;
+    margin-top: 5.6vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    background-color: #3e454b;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+.nav2-button{
+    background-color: white;
+    font-weight: bold;
+    margin: 1.2vw;
+    border: none;
+    border-radius: 2px;
+    vertical-align: baseline;
+}
+.nav2-button:hover{
+    background-color: rgb(170, 170, 170);
+}
+.nav2-button{
+    width: 100vw;
+    height: 4vw;
+}
+.nav2text{
+    font-size: 1.3vw;
+}
+.imgMain{
+    width: 95vw; margin-left: 2.5vw; padding: 0;
+}
+.todaymovies{
+    margin: 3vw 0 0 16vw; font-size: 3vw;
+}
+.table1{
+    width: 70vw;
+    padding-top:4vw;
+    margin-left: 15vw;
+}
+.milk{
+    font-size: 1vw !important; margin-left: 8vw;
+}
+td{
+    line-height: 1.1vw;
+    text-align: left;
+    padding: 0.7vw;
+}
+td div{
+    font-weight: bold; font-size: 1.2vw; margin-top: 1vw; margin-bottom: 1vw;
+}
+td small{
+    font-size: 1vw
+}
+small{
+    color: grey;
+}
+b{color: black !important;}
+.buttonRed{
+    background-color: #c31d28;
+    color: white;
+    width: 21vw;
+    padding: 0.6vw;
+    font-weight: bold;
+    font-size: 1vw;
+    border: none;
+    border-radius: 3%;
+}
+.buttonRed:hover{
+    background-color: indianred;
+}
+.OhMy{
+    margin: 3vw 0 3vw 17vw;
+    font-size: 3vw;
+}
+.milk2{
+    font-size: 1vw !important;
+    margin-left: 37vw;
+}
+.collage{
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15vw;
+    justify-content: space-evenly;
+}
+.milk a:hover{
+    color: #c31d28;
+}
+.collage div{
+    margin-bottom: 1.5vw;
+}
+.footer{
+    width: 100vw;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-evenly;
+}
+.collage a:hover{
+    opacity: 0.8;
+}
+.footer a:hover{
+    color: #c31d28;
+}
+small a:hover{
+    color: #c31d28;
+}
+td img{
+    width: 16vw;
+    height: 25vw;
+}
+.footer1 img{
+    width: 14vw;
+}
+.footer1 small{
+    font-size: 1vw;
+}
+.footer1App img{
+    width: 7vw;
+}
+.footer2 small{
+     font-size: 1vw;
+ }
+.footer2 a{
+    font-size: 1.2vw;
+}
+.footer3 small{
+         font-size: 1vw;
+     }
+.footer3 a{
+    font-size: 1.2vw;
+}
+.footer4 small{
+    font-size: 1vw
+}
+.footer4 a{
+    font-size: 1.2vw
+}
+.footer4App img{
+    width: 1vw;
+    height: 1vw;
+}
+.final-footer small{
+    font-size: 1vw;
+}
+.final-footer a{
+    font-size: 0.9vw;
+}
+@media only screen and (max-width: 800px){
+    li a{
+        font-size: 20px;
+    }
+    header{
+        height: 240px;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        text-align: left;
+        display: block;
+        align-items: center;
+        z-index: 1;
+        box-shadow: 0 1px 5px #3e454b;
+    }
+    li{
+        list-style: none;
+        display: block;
+        margin: 2px;
+        padding-top: 10px;
+    }
+    .nav2{
+        width: 100vw;
+        height: 50px;
+        margin-top: 240px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #3e454b;
+        display: flex;
+        justify-content: center;
+        z-index: 0;
+    }
+    .dropbtn{
+        background-color: white;
+        color: black;
+        padding: 1.5vw;
+        margin-left: 4vw;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .dropdown{
+        position: absolute;
+        top: 1vw;
+        right: 1vw;
+    }
+    header div{
+        margin: 0;
+    }
+    .headerImg{
+        display: block;
+        padding-top: 10px;
+        padding-left: 45px;
+        cursor: pointer;
+        width: 300px;
+    }
+    .nav2-button img{
+        width: 15px;
+    }
+    .nav2{
+        justify-content: space-around;
+    }
+    .nav2-button{
+        width: 150px;
+        height: 50px;
+        margin: 0.9px;
+        padding: 0;
+        align-items: center;
+    }
+    .nav2text{
+        font-size: 10px;
+    }
+    .nav2-button div{
+        padding: 10px;
+    }
+    .imgMain{
+        width: 100%;
+        margin: 0;
+    }
+    .milk{
+        font-size: 8px !important;
+        margin-top: 10px;
+        margin-left: 2px;
+        display: block;
+    }
+    .todaymovies{
+        margin: 3vw 0 0 16vw; font-size: 20px;
+    }
+    .table1{
+        width: 100%;
+        padding:4vw 0 0 0;
+        margin: 0;
+    }
+    td img{
+        width: 115px;
+        height: 190px;
+    }
+    td{
+        line-height: 15px;
+        text-align: left;
+        padding: 0.7vw;
+    }
+    td div{
+        font-weight: bold; font-size: 12px; margin-top: 1vw; margin-bottom: 1vw;
+    }
+    td small{
+        font-size: 12px;
+    }
+    .buttonRed{
+        width: 200px;
+        padding: 5px;
+        font-size: 15px;
+    }
+    .OhMy{
+        margin: 30px 0 30px 100px;
+        font-size: 20px;
+    }
+    .milk2{
+        font-size: 8px !important;
+        margin-left: 30vw;
+    }
+    .footer1 img{
+        width: 100px;
+    }
+    .footer1 small{
+        font-size: 10px;
+    }
+    .footer1App img{
+        width: 65px;
+    }
+    .footer2 small{
+        font-size: 10px;
+    }
+    .footer2 a{
+        font-size: 10px;
+    }
+    .footer3 small{
+        font-size: 10px;
+    }
+    .footer3 a{
+        font-size: 10px;
+    }
+    .footer4 small{
+        font-size: 10px;
+    }
+    .footer4 a{
+        font-size: 10px;
+    }
+    .footer4App img{
+        width: 10px;
+        height: 10px;
+    }
+    .final-footer small{
+        font-size: 10px;
+    }
+    .final-footer a{
+        font-size: 9px;
+    }
+
+
+}

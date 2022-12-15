@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <style>
+    body{
+      margin: 1vw;
+      padding: 0;
+    }
+    table,th,td{
+      border: 1px solid darkgrey;
+      border-collapse: collapse;
+      text-align: center;
+      height: 8vh;
+    }
+    th{
+      background-color: grey;
+    }
+    tr:nth-child(even) {background-color: #f2f2f2;}
+    button{
+      background-color: dimgray;
+      color: white;
+      border: 1px solid darkgreen;
+      margin-left: 1vw;
+    }
+  </style>
+</head>
+<body>
+    <table style="width: 98vw">
+      <tr>
+        <th>#</th>
+        <th>Gender</th>
+        <th>Favourite car</th>
+        <th>I t.d</th>
+        <th>Email</th>
+        <th>Birthday</th>
+        <th>Name</th>
+        <th>Settings</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Male</td>
+        <td>Toyota</td>
+        <td>9999</td>
+        <td>9999</td>
+        <td>2004-05-06</td>
+        <td>Sabyrzhan Orynbassar</td>
+        <td>
+          <button>alter</button>
+          <button class="delete">delete</button>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Female</td>
+        <td>Mercedes-Benz</td>
+        <td>9999</td>
+        <td>9999</td>
+        <td>2004-05-06</td>
+        <td>Sabyrzhan Orynbassar</td>
+        <td>
+          <button>alter</button>
+          <button class="delete2">delete</button>
+        </td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Female</td>
+        <td>Toyota</td>
+        <td>9999</td>
+        <td>9999</td>
+        <td>2004-05-06</td>
+        <td>Sabyrzhan Orynbassar</td>
+        <td>
+          <button>alter</button>
+          <button class="delete3">delete</button>
+        </td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Male</td>
+        <td>Mercedes-Benz</td>
+        <td>9999</td>
+        <td>9999</td>
+        <td>2004-05-06</td>
+        <td>Sabyrzhan Orynbassar</td>
+        <td>
+          <button>alter</button>
+          <button class="delete4">delete</button>
+        </td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Male</td>
+        <td>Mercedes-Benz</td>
+        <td>9999</td>
+        <td>9999</td>
+        <td>2004-05-06</td>
+        <td>Sabyrzhan Orynbassar</td>
+        <td>
+          <button>alter</button>
+          <button class="delete5">delete</button>
+        </td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Male</td>
+        <td>Toyota</td>
+        <td>9999</td>
+        <td>9999</td>
+        <td>2004-05-06</td>
+        <td>Sabyrzhan Orynbassar</td>
+        <td>
+          <button>alter</button>
+          <button class="delete6">delete</button>
+        </td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Female</td>
+        <td>Toyota</td>
+        <td>9999</td>
+        <td>9999</td>
+        <td>2004-05-06</td>
+        <td>Sabyrzhan Orynbassar</td>
+        <td>
+          <button>alter</button>
+          <button class="delete7">delete</button>
+        </td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Male</td>
+        <td>Mercedes-Benz</td>
+        <td>9999</td>
+        <td>9999</td>
+        <td>2004-05-06</td>
+        <td>Sabyrzhan Orynbassar</td>
+        <td>
+          <button>alter</button>
+          <button class="delete8">delete</button>
+        </td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Female</td>
+        <td>Toyota</td>
+        <td>9999</td>
+        <td>9999</td>
+        <td>2004-05-06</td>
+        <td>Sabyrzhan Orynbassar</td>
+        <td>
+          <button>alter</button>
+          <button class="delete9">delete</button>
+        </td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Female</td>
+        <td>Mercedes-Benz</td>
+        <td>9999</td>
+        <td>9999</td>
+        <td>2004-05-06</td>
+        <td>Sabyrzhan Orynbassar</td>
+        <td>
+          <button id="alter10">alter</button>
+          <button class="delete10">delete</button>
+        </td>
+      </tr>
+    </table>
+    <script>
+      $(document).ready(function(){
+        $(".delete").click(function(){
+          $("tr:has(.delete)").hide(200);
+        });
+      });
+      $(document).ready(function(){
+        $(".delete2").click(function(){
+          $("tr:has(.delete2)").hide(200);
+        });
+      });
+      $(document).ready(function(){
+        $(".delete3").click(function(){
+          $("tr:has(.delete3)").hide(200);
+        });
+      });
+      $(document).ready(function(){
+        $(".delete4").click(function(){
+          $("tr:has(.delete4)").hide(200);
+        });
+      });
+      $(document).ready(function(){
+        $(".delete5").click(function(){
+          $("tr:has(.delete5)").hide(200);
+        });
+      });
+      $(document).ready(function(){
+        $(".delete6").click(function(){
+          $("tr:has(.delete6)").hide(200);
+        });
+      });
+      $(document).ready(function(){
+        $(".delete7").click(function(){
+          $("tr:has(.delete7)").hide(200);
+        });
+      });
+      $(document).ready(function(){
+        $(".delete8").click(function(){
+          $("tr:has(.delete8)").hide(200);
+        });
+      });
+      $(document).ready(function(){
+        $(".delete9").click(function(){
+          $("tr:has(.delete9)").hide(200);
+        });
+      });
+      $(document).ready(function(){
+        $(".delete10").click(function(){
+          $("tr:has(.delete10)").hide(200);
+        });
+      });
+      function alter(){
+
+      }
+
+    </script>
+</body>
+</html>

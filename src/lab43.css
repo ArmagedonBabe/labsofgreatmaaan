@@ -1,0 +1,13 @@
+body{
+    background-image: url("https://images3.alphacoders.com/589/589870.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 10px auto;
+    color: white;
+}
+#a1,#a2,#a3,#a4,#a5{
+    visibility: hidden;
+}
+h1{
+    color: white;
+}

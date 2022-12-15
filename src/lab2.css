@@ -1,0 +1,55 @@
+.red{
+    color: red;
+}
+.rgba-red{
+    color: rgba(128,0,0);
+}
+.hex-red{
+    color: #ff0000;
+}
+.background-red{
+    background-color: red;
+}
+
+.background-yellow{
+    background-color: yellow;
+}
+.border{
+    border: 2px black solid;
+}
+.border-top{
+    border-top: dotted green;
+}
+.border-bottom{
+    border-bottom: dashed red;
+}
+.little-rounded{
+    border-radius: 10%;
+}
+.fully-rounded{
+    border-radius: 30%;
+}
+.padding{
+    padding: 30px;
+}
+.margin{
+    margin: 10px 20px 10px 20px;
+}
+.block{
+
+}
+.inline{
+
+}
+.inline-block{
+
+}
+.text-center{
+
+}
+.text-right{
+
+}
+.text-left{
+
+}

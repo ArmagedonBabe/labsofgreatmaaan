@@ -1,0 +1,33 @@
+body{
+    background-image: url("https://images3.alphacoders.com/589/589870.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 10px auto;
+}
+img{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.main{
+    margin: 100px 100px;
+    padding: 10px 300px 100px 10px;
+    color: white;
+    background-color: rgba(0,0,0,.5);
+}
+.aba{
+    padding-left: 100px;
+}
+#phoneNumber{
+    color: yellow;
+}
+.footer{
+    width: 100vw;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 20px;
+    position: fixed;
+    bottom: 0px;
+}
